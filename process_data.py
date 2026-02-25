@@ -5,6 +5,7 @@ import os
 data_folder = "./data"
 output_file = "./formatted_data.csv"
 
+# Open output file
 with open(output_file, "w", newline="") as out:
     writer = csv.writer(out)
 
